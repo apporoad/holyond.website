@@ -8,7 +8,7 @@ const logger = require('koa-logger')
 
 const index = require('./routes/index')
 const users = require('./routes/users')
-var async = require("async");
+
 
 // error handler
 onerror(app)
